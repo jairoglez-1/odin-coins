@@ -3,14 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Odin Recipes</h1>
-    <p> <img src="images/tacos-al-pastor-img.jpg" height="200" width="250"></p>
-    <p> <a href="recipes/taco.html">tacos</a> </p>
+<header>
+    <div class="container">
+        <img src="images/knife.png" alt="Logo" class="logo">
+        <h1>Odin Recipes</h1>
 
-    <p> <img src="images/pancake.jpg" height="200" width="250"></p>
-    <p> <a href="recipes/pancakes.html">pancakes</a></p>
-    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#"></a>Contact</li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<body>
+
+    <div class="food">
+        <a target="_blank" href="recipes/taco.html">
+            <img src="images/tacos-al-pastor-img.jpg" alt="Tacos">
+        </a>
+        <div class="desc">flavorfull and filling tacos al pastor</div>
+    </div>
+
+    <div class="food">
+        <a target="_blank" href="recipes/pancakes.html">
+            <img src="images/pancake.jpg" alt="pancakes">
+        </a>
+        <div class="desc">Fluffy and delicious pancakes</div>
+    </div>
+
+    <div class="food">
+        <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="images/quesadilla.jpg" alt="quesadilla">
+        </a>
+        <div class="desc"> Great quesadillas for a meal or appetiser</div>
+    </div>
+
 </body>
 </html>
